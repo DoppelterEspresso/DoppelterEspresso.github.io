@@ -34,7 +34,6 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 plugins:
   - jekyll-feed
 
-skin: midnight
 
 # Exclude from processing.
 # The following items will not be processed, by default.
