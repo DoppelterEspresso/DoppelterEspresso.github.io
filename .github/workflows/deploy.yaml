@@ -23,6 +23,7 @@ jobs:
       - name: Astro build
         run: |
           export NODE_OPTIONS=--max_old_space_size=8192
+          npm install
           npm run build
       #- name: Install, build, and upload your site
         #uses: withastro/action@v2
