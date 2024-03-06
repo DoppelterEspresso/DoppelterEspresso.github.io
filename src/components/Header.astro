@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets"
+import logo from "../images/DoppelterEspressso.png"
+import Navigation from "../components/Navigation.astro"
+import Hamburger from "../components/Hamburger.astro"
+---
+
+<header>
+    <Image id="myLogo" src={logo} alt="logo"/>
+    <nav>
+        <Hamburger />
+        <Navigation />
+    </nav>
+</header>

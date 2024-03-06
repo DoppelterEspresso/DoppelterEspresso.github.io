@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Sketch from "../components/Sketch.astro";
+const pageTitle = "Home Page";
+---
+<BaseLayout pageTitle={pageTitle}>
+  <em>Tests and experimenting with small web development projects here:</em>
+
+  <hr><br>
+  <h2>P5.js Test</h2>
+  <Sketch></Sketch>
+	<script is:inline src="/sketch.js"></script>
+</BaseLayout>
