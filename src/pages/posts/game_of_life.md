@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/GameOfLifeLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Conway's Game of Life"
 pubDate: 2024-03-04
 description: "A showcase of Conway's Game of Life"
@@ -28,5 +28,3 @@ simulation, depending on the initial _seed_ of the program, the initial
 state of the grid.
 
 ---
-
-## Try it out! (Currently Desktop Only):
